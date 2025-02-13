@@ -10,7 +10,7 @@ Data cleaning and previous processing were done on earlier stages of my project 
 
 Thus, the cleaned data was later used in the LIWC software to obtain scores for the LIWC's moral dimension and positive emotion/negative emotion, as well as scores for another dictionary: The Moral Foundation Dictionary (MFD).
 
-The [data prep notebook](data-prep.ipynb) shows feature engineering with these scores. 
+The [data prep notebook](../data-prep.ipynb) shows feature engineering with these scores. 
 
 The [dataset](engineered_data.csv) presented here has the submissions and comments from all the three subreddits, along with each of the scores:
 
@@ -34,7 +34,7 @@ The [dataset](engineered_data.csv) presented here has the submissions and commen
 - "Vice_total": Aggregated score for all vice's scores
 - "Foundations_total_score": Aggregated score for all foundations' scores. 
 
-Finally, the [moral_words csv file](moral_words.csv) has the word frequencies for the LIWC's moral words found in the r/selfimprovement, as well as the average positive emotion, average negative emotion and combined overall emotional balance scores. The workflow for this calculations can also be find on the [data prep notebook](data-prep.ipynb). The final dataset has the following variables:
+Finally, the [moral_words csv file](moral_words.csv) has the word frequencies for the LIWC's moral words found in the r/selfimprovement, as well as the average positive emotion, average negative emotion and combined overall emotional balance scores. The workflow for this calculations can also be find on the [data prep notebook](../data-prep.ipynb). The final dataset has the following variables:
 
 - "word": moral words from LIWC's moral dimension appearing on the r/selfimprovement
 - "count": the number of times they appear
