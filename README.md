@@ -21,7 +21,7 @@ Submissions and comments from the subreddit r/selfimprovement were analyzed to o
 
 This Tableau dashboard explores the use of moralization language on the subreddit r/selfimprovement, comparing it with two other subreddits and providing details within r/selfimprovement itself.
 
-### Moralization Language Across Documents (Leftmost Graph)
+### Moralization language across subreddits (Upper left bar charts)
 
 The first graph consists of two bar plots, one above the other, highlighting the moralization language in r/selfimprovement relative to the other subreddits. The comparison uses two measurement tools: the MFD and the LIWC Dictionary. The goal is to strengthen the argument by showing consistent results with different methods. Bar plots were chosen for their ability to clearly convey these differences.
 
@@ -29,12 +29,15 @@ The MFD theory is based on the idea that morality is made up of distinct “foun
 
 The LIWC bars are more straightforward, representing a single score. Hovering over them reveals the mean values for each subreddit. Future updates could include quantile values in the tooltip for deeper insights.
 
-### Virtue vs. Vice Language (Upper Right Pie Chart)
+### Top LIWC moralization words  and their overall emotional balance on r/selfimprovement (Upper right packed bubbles plot)
+The packed bubbles plot highlights the most frequently used moralization words. While this design does not perfectly show the differences in word frequencies, it adds an engaging visual contrast to the other two straightforward plots. The goal is to showcase popular moralization words in a visually appealing way, without an immediate need for specific frequencies. However, hovering over each bubble will reveal each word’s frequency if that is of interest to the reader. Furthermore, the distribution of the bubbles in the space was set to put the most frequent words in the middle to keep the focus on them. Moreover, the color of each bubble reflects the mean overall emotional balance (positive minus negative emotions score) of the posts in which the word appears, and the outline of each bubble helps to distinguish the white ones that have a neutral value —because they are used almost equally in both positive and negative contexts. For a more nuanced interpretation, the tooltip also displays raw positive and negative emotion scores, as well as the specific overall emotional balance score.
 
+
+### Moral foundations focus on r/selfimprovement (Lower left pie chart)
 The pie chart compares the distribution of Virtue and Vice language according to the MFD. This dictionary distinguishes between language that praises ("honest") and criticizes ("dishonest"). A pie chart choice helps to compare proportions of the whole, and with only two categories it remains easy to interpret. The chart shows that about ~75% of the moral language in r/selfimprovement focuses on positive virtues, while the remaining ~25% uses negative connotations. This could explain why moralization scores do not correlate with negative emotional scores, as explored in a previous assignment. The tooltip provides the exact proportion, and in future versions, I could display the most common virtue and vice words along with their frequencies.
 
-### Top Moralization Words (Lower Right Packed Bubbles Plot)
-The packed bubbles plot highlights the most frequently used moralization words. While this design does not perfectly show the differences in word frequencies, it adds an engaging visual contrast to the other two straightforward plots. The goal is to showcase popular moralization words in a visually appealing way, without an immediate need for specific frequencies. However, hovering over each bubble will reveal each word’s frequency if that is of interest to the reader. Furthermore, the distribution of the bubbles in the space was set to put the most frequent words in the middle to keep the focus on them. Moreover, the color of each bubble reflects the mean overall emotional balance (positive minus negative emotions score) of the posts in which the word appears, and the outline of each bubble helps to distinguish the white ones that have a neutral value —because they are used almost equally in both positive and negative contexts. For a more nuanced interpretation, the tooltip also displays raw positive and negative emotion scores, as well as the specific overall emotional balance score.
+### Moral language in r/selfimprovement's documents over time (Lower right line chart)
+This plot illustrates the evolution of moral language using two dictionaries, demonstrating an increase over time, as observed in social media research. The plots are faceted due to their inherent measurement differences: the MFD total score sums proportions across moral foundations, thus being typically higher than LIWC, which measures a single dimension. Regarding colors, the MFD line is colored to harmonize with the tones in its bar chart, while the LIWC moral scores are colored to match their corresponding bar chart color.
 
 ### Conclusion
 This dashboard provides a general overview of the presence and use of moralization language in r/selfimprovement, with insights into how it is framed.
