@@ -34,7 +34,7 @@ The [dataset](engineered_data.csv) presented here has the submissions and commen
 - "Vice_total": Aggregated score for all vice's scores
 - "Foundations_total_score": Aggregated score for all foundations' scores. 
 
-Finally, the [moral_words csv file](moral_words.csv) has the word frequencies for the LIWC's moral words found in the r/selfimprovement, as well as the average positive emotion, average negative emotion and combined overall emotional balance scores. The workflow for this calculations can also be find on the [data prep notebook](../data-prep.ipynb). The final dataset has the following variables:
+Finally, the [moral_words csv file](moral_words.csv) has LIWC's moral words found in the r/selfimprovement. The workflow for this calculations can also be find on the [data prep notebook](../data-prep.ipynb). The final dataset has the following variables:
 
 - "word": moral words from LIWC's moral dimension appearing on the r/selfimprovement
 - "count": the number of times they appear
