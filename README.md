@@ -15,7 +15,7 @@ Submissions and comments from the subreddit r/selfimprovement were analyzed to o
 ## Tableau Dashboard
 
 * [Link to the public dashboard]
-* A [PDF] with the static (non interactive) images.
+* A [PDF](PDFTableau.pdf) with the static (non interactive) images.
 
 ## Narrative: Moralization Language in r/selfimprovement
 
