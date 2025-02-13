@@ -1,6 +1,6 @@
 # Assignment 4 - Natasha Carpio Castellanos
 
-This repository contains a Tableau dashboard and an accompanying narrative for exploring the moralization of self improvement
+This repository contains a Tableau dashboard and an accompanying narrative for exploring the moralization of self improvement.
 
 ## Research Questions
 
@@ -10,7 +10,7 @@ This repository contains a Tableau dashboard and an accompanying narrative for e
 
 ## Data
 
-Submissions and comments from the subreddit r/selfimprovement were analyzed to obtain scores of moralization language according to two different dictionaries: The Moral Foundations Dictionary 2.0 (MFD) and the LIWC Dictionary. Then, some feature engineering was done to obtain aggregated scores and word frequencies to facilitate Tableau visualization. Code for this manipulation can be find in the [data-prep notebook](data-prep.ipynb). The data and a more detailed explanation are available in the [data folder](data).
+Submissions and comments from the subreddit r/selfimprovement were analyzed to obtain scores of moralization language according to two different dictionaries: The Moral Foundations Dictionary 2.0 (MFD) and the LIWC Dictionary. The same was done with other two subreddits: r/investing and r/homeowners. Then, some feature engineering was done to obtain aggregated scores and word frequencies to facilitate Tableau visualization. Code for this manipulation can be find in the [data-prep notebook](data-prep.ipynb). The data and a more detailed explanation are available in the [data folder](data).
 
 ## Tableau Dashboard
 
